@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nysa Clark">
+    <meta name="description" content="Want to take a quiz on general knowledge? Click this link!">
+
+    <meta property="og:image" content="images/NRC-Favicon.png">
+    <meta property="og:title" content="Quiz">
+    <meta property="og:description" content="Trivia Night quiz">
+
+    <title>Trivia Night</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/NRC-Favicon.png" type="image/x-icon">
+</head>
+
+<body style="background-image: url(images/lightBackground.png)">
+    <nav>
+        <form action="data.json" method="POST">
+            <fieldset>
+                <legend>Links to other pages</legend>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="survey.html">Survey</a></li>
+                </ul>
+            </fieldset>
+        </form>
+    </nav>
+    <main>
+        <form action="data.json" method="POST">
+            <fieldset>
+                <legend>Multiple Choice</legend>
+
+                <p>
+                    What is the <em>scientific</em> name of H<sub>2</sub>O?
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <label for="Q1A1">
+                                <input type="radio" id="Q1A1" name="user.Q1A1">
+                                Air
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q1A2">
+                                <input type="radio" id="Q1A2" name="user.Q1A2">
+                                Fire
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q1A3">
+                                <input type="radio" id="Q1A3" name="user.Q1A3">
+                                Earth
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q1A4">
+                                <input type="radio" id="Q1A4" name="user.Q1A4">
+                                Water
+                            </label>
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    What is the <em>most popular</em> name for Dec. 25<sup>th</sup>?
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <label for="Q2A1">
+                                <input type="radio" id="Q2A1" name="user.Q2A1">
+                                Christmas
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q2A2">
+                                <input type="radio" id="Q2A2" name="user.Q2A2">
+                                Thanksgiving
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q2A3">
+                                <input type="radio" id="Q2A3" name="user.Q2A3">
+                                Valentine's Day
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q2A4">
+                                <input type="radio" id="Q2A4" name="user.Q2A4">
+                                Halloween
+                            </label>
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    Which of the following is the chemical code for <strong>sugar?</strong>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <label for="Q3A1">
+                                <input type="checkbox" id="Q3A1" name="user.Q3A1">
+                                C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q3A2">
+                                <input type="checkbox" id="Q3A2" name="user.Q3A2">
+                                C<sub>5</sub>H<sub>10</sub>O<sub>5</sub>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q3A3">
+                                <input type="checkbox" id="Q3A3" name="user.Q3A3">
+                                C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q3A4">
+                                <input type="checkbox" id="Q3A4" name="user.Q3A4">
+                                C<sub>11</sub>H<sub>22</sub>O<sub>11</sub>
+                            </label>
+                        </li>
+                    </ul>
+                </p>
+
+                
+                <p>
+                    Which of the following are <strong>even?</strong>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <label for="Q4A1">
+                                <input type="checkbox" id="Q4A1" name="user.Q4A1">
+                                1<sup>st</sup>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q4A2">
+                                <input type="checkbox" id="Q4A2" name="user.Q4A2">
+                                2<sup>nd</sup>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q4A3">
+                                <input type="checkbox" id="Q4A3" name="user.Q4A3">
+                                3<sup>rd</sup>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Q4A4">
+                                <input type="checkbox" id="Q4A4" name="user.Q4A4">
+                                4<sup>th</sup>
+                            </label>
+                        </li>
+                    </ul>
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
